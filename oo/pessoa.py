@@ -9,7 +9,6 @@ class  Pessoa:
 
 if __name__ == '__main__':
     p = Pessoa('Luciano')
-    print(Pessoa.cumprimentar(p))
     print(p.cumprimentar())
     print(p.nome)
     print(p.idade)
